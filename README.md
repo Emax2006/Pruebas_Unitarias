@@ -32,3 +32,19 @@ python test_producto.py
 python test_pedido.py
 python test_detalle_pedido.py
 ```
+
+
+
+## 🚀 Automatización con GitHub Actions
+
+Este repositorio incluye un flujo de trabajo de Integración Continua (CI) utilizando GitHub Actions.
+
+### Configuración y Despliegue Automático
+
+El flujo de trabajo se encuentra definido en el archivo `.github/workflows/python-tests.yml` y realiza las siguientes acciones de manera automática:
+
+1.  **Disparadores (Triggers)**: La automatización se activa automáticamente cada vez que se realiza un `push` o un `pull request` a la rama `main`.
+2.  **Entorno de Ejecución**: Se configura un entorno virtual con Ubuntu y Python 3.10.
+3.  **Ejecución de Pruebas**: Se ejecutan todas las pruebas unitarias del proyecto de forma automática utilizando el comando `python -m unittest discover`.
+
+Esto asegura que cualquier cambio nuevo subido al repositorio sea verificado y no rompa la funcionalidad existente, garantizando la calidad y estabilidad del código. Los resultados de cada ejecución se pueden ver en la pestaña **"Actions"** del repositorio.
