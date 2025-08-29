@@ -9,7 +9,7 @@ El proyecto está organizado con cada clase en su propio archivo (`.py`) y sus p
 ## Instrucciones de Despliegue e Instalación
 1.  **Clonar el repositorio:**
     ```bash
-    git clone <https://github.com/Emax2006/Pruebas_Unitarias.git>
+    git clone <https://github.com/Juan912-spec/Pruebas-Unitarias.gitt>
     cd <Pruebas_Unitarias>
     ```
 2.  **(Opcional) Crear un entorno virtual:**
